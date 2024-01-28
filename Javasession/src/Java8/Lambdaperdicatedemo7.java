@@ -14,14 +14,14 @@ public class Lambdaperdicatedemo7 {
 
 		System.out.println("following are number even and greater than 50");
 /* and*********/
-		/*for(int n:a)
+		for(int n:a)
 		{
 			if(p1.and(p2).test(n))
 			{
 				System.out.println(n);
 			}
 		}
-		*/
+		
 		/* or*********/
 		for(int n:a)
 		{
@@ -30,14 +30,7 @@ public class Lambdaperdicatedemo7 {
 				System.out.println(n);
 			}
 		}
-		/* negate*********/
-		for(int n:a)
-		{
-			if(p2.test(n))
-			{
-				System.out.println(n);
-			}
-		}
+		
 	}
 
 }
